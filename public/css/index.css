@@ -1,0 +1,90 @@
+/* <!-- ---------- Computadora ---------- --> */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: rgb(178, 112, 216);
+            }
+    
+    div {
+        background-color: white;
+        border: 1px solid black;
+        padding: 12px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    fieldset {
+        margin-bottom: 12px;
+    }
+    
+    legend {
+        background-color: rgb(112, 161, 216);
+        padding: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    img {
+        border-radius: 50%;
+    }
+}
+
+/* <!-- ---------- Tablet ---------- --> */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-color: rgb(178, 112, 216);
+            }
+    
+    div {
+        background-color: white;
+        border: 1px solid black;
+        padding: 12px;
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    fieldset {
+        margin-bottom: 12px;
+    }
+    
+    legend {
+        background-color: rgb(112, 161, 216);
+        padding: 5px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    
+    img {
+        border-radius: 50%;
+    }
+}
+
+/* <!-- ---------- Telefono ---------- --> */
+@media screen and (max-width: 767px){
+
+    body {
+    background-color: rgb(178, 112, 216);
+        }
+
+div {
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 12px;
+}
+
+legend {
+    background-color: rgb(112, 161, 216);
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+}
+}
